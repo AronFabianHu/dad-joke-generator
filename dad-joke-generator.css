@@ -1,0 +1,71 @@
+h1 {
+    color: #294060;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+button {
+    background: #E63946;
+    border: 1px solid #E63946;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+button:hover,
+button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #E63946;
+}
+
+button:active {
+    opacity: .5;
+}
+
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 10px 40px;
+    max-width: 800px;
+
+}
+
+li:nth-of-type(2n) {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
